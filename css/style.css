@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  max-width: 2011px;
+}
+.container {
+  width: 1219px;
+  margin: 0 auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+#theproblem, #ppc, #theteam {
+
+  position: absolute; margin-top: -82px;
+
+}
+/* header */
+.header {
+  background-color: #007765;
+  position: sticky;
+  top:0;
+
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.header-logo {
+  margin-top: 20px;
+  margin-bottom: 18px;
+  margin-right: 0;
+  margin-left: 50px;
+}
+.header-nav {
+ margin-left: 460px;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+}
+.header-menu-item {
+  padding-left: 8px;
+  border-right: 3px solid #FFFFFF;
+  padding-right: 8px;
+}
+.header-menu-item:first-child {
+  padding-left: 0;
+}
+.header-menu-item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.header-menu-link {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+/* section-jumbotron */
+.section-jumbotron {
+  background-image: url(./img/image1.png);
+  background-size: cover;
+  background-position: center center;
+ 
+
+
+}
+.section-jumbotron-title {
+  margin: 0;
+  padding: 160px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* section-the-problem */
+.section-the-problem {
+  background-color: #EEEEEE;
+}
+.title {
+  padding-top: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+.text {
+  margin-top: 16px;
+  padding-bottom: 92px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1110px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+/* hero */
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(./img/image2.png);
+  background-size: cover;
+  background-position: center center;
+}
+.hero__message {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  max-width: 893px;
+  text-align: center;
+}
+/* section-ppc */
+.ppc-description{
+  display: flex;
+  align-items: center;
+  max-width: 1093px;
+  padding-top: 16px;
+  margin-bottom: 35px;
+}
+.ppc-description-text {
+  padding-left: 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+/* section-the-team */
+.section-the-team {
+  background-color: #eeeeee;
+
+}
+.team-member-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  padding-bottom: 84px;
+
+}
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 350px;
+  height: 283px;
+}
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  margin-top: 12px;
+}
+.profession {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+/* footer */
+.footer {
+  background-color: #333333;
+}
+.footer__message {
+  padding-top: 50px;
+  padding-bottom: 62px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 540px;
+}
